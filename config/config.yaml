@@ -104,8 +104,8 @@ platforms:
       name: "贴吧"
     - id: "zhihu"
       name: "知乎"
-    #- id: "hupu"
-    #  name: "虎扑"
+    - id: "hupu"
+     name: "虎扑"
 
   # === 科技类平台 ===
     - id: "ithome"
@@ -128,25 +128,24 @@ platforms:
       name: "少数派"
     - id: "producthunt"
       name: "ProductHunt"
-
+    - id: "36kr"
+      name: "36氪"
+    - id: "linuxdo"
+      name: "LinuxDo" 
+      
   # === 其他/工具类 ===
-  #- id: "chongbuluo"
-  #  name: "虫部落"
-
-  #- id: "tencent-hot"
-  #  name: "腾讯新闻 综合早报"
-    
-  #- id: "cls-telegraph"
-  #  name: "财联社 电报"
-    
-  #- id: "cls-depth"
-  #  name: "财联社 深度"
-    
-  #- id: "fastbull-express"
-  #  name: "法布财经 快讯"
-    
-  #- id: "fastbull-news"
-  #  name: "法布财经 头条"
+    - id: "chongbuluo"
+     name: "虫部落"
+    - id: "tencent-hot"
+     name: "腾讯新闻 综合早报"  
+    - id: "cls-telegraph"
+     name: "财联社 电报" 
+    - id: "cls-depth"
+     name: "财联社 深度"  
+    - id: "fastbull-express"
+     name: "法布财经 快讯"
+    - id: "fastbull-news"
+     name: "法布财经 头条"
 
   # ======================================================
   # 暂时失败的渠道（可能需要修复或接口已变更）
@@ -214,15 +213,15 @@ rss:
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
 
-    - id: "ruanyifeng"
-      name: "阮一峰的网络日志"
-      url: "http://www.ruanyifeng.com/blog/atom.xml"
-      enabled: false                  # 禁用
-      # max_age_days: 3               # 示例：推送 3 天内的文章（更新较慢的博客）
+    # - id: "ruanyifeng"
+    #   name: "阮一峰的网络日志"
+    #   url: "http://www.ruanyifeng.com/blog/atom.xml"
+    #   enabled: false                  # 禁用
+    #   # max_age_days: 3               # 示例：推送 3 天内的文章（更新较慢的博客）
      
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
+    # - id: "yahoo-finance"
+    #   name: "雅虎财经"
+    #   url: "https://finance.yahoo.com/news/rssindex"
 
     # 自定义源示例
     # - id: "custom-feed"
