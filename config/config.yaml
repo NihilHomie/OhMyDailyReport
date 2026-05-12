@@ -74,6 +74,8 @@ platforms:
       name: "MKT新闻"
     - id: "kaopu"
       name: "靠谱新闻"
+    - id: "tencent-hot"
+      name: "腾讯新闻 综合早报"
 
   # === 财经投资类 ===
     - id: "wallstreetcn-hot"
@@ -92,6 +94,14 @@ platforms:
       name: "金十数据"
     - id: "fastbull"
       name: "快讯通"
+    - id: "cls-telegraph"
+      name: "财联社 电报"
+    - id: "cls-depth"
+      name: "财联社 深度"
+    - id: "fastbull-express"
+      name: "法布财经 快讯"
+    - id: "fastbull-news"
+      name: "法布财经 头条"
 
   # === 社交/短视频/娱乐类 ===
     - id: "weibo"
@@ -130,21 +140,6 @@ platforms:
       name: "ProductHunt"
     - id: "36kr"
       name: "36氪"
-
-  # === 其他/工具类 ===
-  #- id: "chongbuluo"
-  #  name: "虫部落"
-
-    - id: "tencent-hot"
-     name: "腾讯新闻 综合早报"   
-    - id: "cls-telegraph"
-     name: "财联社 电报"  
-    - id: "cls-depth"
-     name: "财联社 深度" 
-    - id: "fastbull-express"
-     name: "法布财经 快讯" 
-    - id: "fastbull-news"
-     name: "法布财经 头条"
 
   # ======================================================
   # 暂时失败的渠道（可能需要修复或接口已变更）
