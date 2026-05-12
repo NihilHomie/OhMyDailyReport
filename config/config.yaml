@@ -128,10 +128,10 @@ platforms:
       name: "少数派"
     - id: "producthunt"
       name: "ProductHunt"
-    - id: "36kr"
-      name: "36氪"
-    - id: "linuxdo"
-      name: "LinuxDo" 
+    # - id: "36kr"
+    #   name: "36氪"
+    # - id: "linuxdo"
+    #   name: "LinuxDo" 
       
   # === 其他/工具类 ===
     - id: "chongbuluo"
