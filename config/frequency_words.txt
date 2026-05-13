@@ -21,11 +21,11 @@
 # ═══════════════════════════════════════════════════════════════
 
 [AI 前沿总览]
-/\bAI\b|\bAGI\b|\bASI\b|人工智能|通用人工智能|人工超级智能|大模型|基础模型|Foundation Model|Large Language Model|\bLLM\b|生成式AI|Generative AI|\bGenAI\b|AIGC|AI原生|AI Native|世界模型|World Model|空间智能|Spatial Intelligence|多模态|全模态|Omnimodal|推理模型|长上下文|端侧大模型|具身智能|个人AI|AI助手|智能体|AI Agent|Agentic AI/ => AI 前沿
+/\bAI\b|\bAGI\b|\bASI\b|人工智能|通用人工智能|人工通用智能|人工超级智能|强人工智能|大模型|基础模型|Foundation Model|Large Language Model|语言模型|\bLLM\b|生成式AI|生成式人工智能|Generative AI|\bGenAI\b|AIGC|AI原生|AI Native|世界模型|World Model|World Foundation Model|空间智能|Spatial Intelligence|多模态|跨模态|全模态|Omnimodal|视觉语言模型|\bVLM\b|推理模型|长上下文|端侧大模型|小模型|\bSLM\b|具身智能|VLA|Vision-Language-Action|个人AI|AI助手|智能体|AI Agent|Agentic AI/ => AI 前沿
 @12
 
 [Agent / Harness / Context Engineering]
-/\bAgent\b|智能体|自主智能体|多智能体|Multi-Agent|Agentic|Agent Workflow|Agentic Workflow|Agent Engineering|Agent Harness|Agentic Harness|AI Harness|Harness Engineering|\bHarness\b|智能体外壳|Context Engineering|上下文工程|Context Window|上下文窗口|Context Management|上下文管理|Context Compression|上下文压缩|Context Poisoning|Context Distraction|Context Confusion|Context Clash|上下文污染|上下文分心|上下文混淆|上下文冲突|Prompt Engineering|提示词工程|Prompt Chaining|System Prompt|ReAct|工具调用|Tool Calling|Tool Use|Function Calling|Computer Use|Browser Use|工作流编排|Orchestration|任务规划|反思机制|Self-Reflection|自我进化|Agent Evolve|SkillClaw|Gene|GBrain|HyperMem|Memory Sparse Attention|\bMSA\b/ => Agent / Harness
+/\bAgent\b|智能体|自主智能体|多智能体|Multi-Agent|Agentic|Agent Workflow|Agentic Workflow|Agent Engineering|Agent Harness|Agentic Harness|AI Harness|Harness Engineering|\bHarness\b|智能体框架|智能体外壳|Context Engineering|上下文工程|Context Window|上下文窗口|Long Context|长上下文|LLM Memory|长短期记忆|Context Management|上下文管理|Context Compression|上下文压缩|Context Poisoning|Context Distraction|Context Confusion|Context Clash|上下文污染|上下文分心|上下文混淆|上下文冲突|Query Augmentation|Prompt Engineering|提示词工程|Prompt Chaining|System Prompt|Few-shot|Zero-shot|ReAct|工具调用|Tool Calling|Tool Use|Function Calling|Computer Use|Browser Use|Code Interpreter|沙箱执行|云沙箱|工作流编排|Orchestration|任务规划|反思机制|Self-Reflection|自我进化|Agent Evolve|SkillClaw|Gene|GBrain|HyperMem|Memory Sparse Attention|\bMSA\b/ => Agent / Harness
 @15
 
 [MCP / CLI / SKILL / ClawHub]
@@ -33,7 +33,7 @@
 @15
 
 [AI Coding / Vibe Coding]
-/AI-Coding|AI Coding|Vibe Coding|代码智能体|编程智能体|Coding Agent|Software Agent|代码生成|代码审查|AI Code Review|Adversarial Review|Repo Agent|终端智能体|CLI Agent|Agent Worktree|Agent Window|Agent Tabs|Best-of-N|Design Mode|自动化修复|自动写代码|自主编程|测试生成|SWE-bench|SWE-agent|Terminal-Bench|OpenHands|Cursor|Windsurf|Codeium|Cascade|Google Antigravity|Antigravity|Cline|Roo Code|Continue|Aider|OpenCode|Oh-my-opencode|open-agent-sdk|CodeAny|Codex CLI|Codex Plugin|Trae|通义灵码|CodeBuddy|豆包MarsCode|Qwen Code|Qwen Coder|Gemini Code Assist|Copilot Workspace/ => AI Coding
+/AI-Coding|AI Coding|Vibe Coding|代码智能体|编程智能体|Coding Agent|Software Agent|Claude Code|OpenAI Codex|Codex CLI|Codex Plugin|codex-plugin|GitHub Copilot|Copilot Workspace|Gemini Code Assist|Cursor|Cursor Agents|Windsurf|Codeium|Cascade|Google Antigravity|Antigravity|Devin|Replit Agent|Lovable|Vercel v0|Bolt\.new|Cline|Roo Code|Continue|Aider|OpenCode|Oh-my-opencode|open-agent-sdk|CodeAny|Trae|通义灵码|CodeBuddy|豆包MarsCode|Qwen Code|Qwen Coder|代码生成|代码审查|AI Code Review|Adversarial Review|Repo Agent|终端智能体|CLI Agent|Agent Worktree|worktree|cloud sandbox|subagent|Agent Window|Agent Tabs|Best-of-N|Design Mode|自动化修复|自动写代码|自主编程|测试生成|SWE-bench|SWE-agent|Terminal-Bench|OpenHands/ => AI Coding
 @15
 
 [推理模型 / 强化学习]
@@ -113,7 +113,7 @@
 
 /Hugging Face|Transformers|Diffusers|Datasets|Spaces|Gradio|ModelScope|GitHub Models|OpenXLab|OpenRouter|Together AI|Fireworks AI|Replicate|GroqCloud|Papers With Code|arXiv|Semantic Scholar|OpenReview|Open LLM Leaderboard|C-Eval|SuperCLUE/ => AI 开源与论文平台
 
-/Runway|Pika|Luma|Dream Machine|Kling|可灵|Vidu|Vidu AI|Ideogram|Midjourney|Stable Diffusion|Stability AI|ComfyUI|Flux|Black Forest Labs|Hedra|MeshyAI|Tripo|Nano Banana|Seko|商汤短剧Agent/ => 生成媒体产品
+/Runway|Pika|Luma|Dream Machine|Kling|可灵|Vidu|Vidu AI|Veo|Sora|Movie Gen|Gen-3|Gen-4|Ideogram|Midjourney|Stable Diffusion|Stability AI|SDXL|ComfyUI|Flux|Black Forest Labs|Leonardo AI|Krea|即梦|海螺视频|Hedra|MeshyAI|Tripo|Nano Banana|Seko|商汤短剧Agent|ElevenLabs|Suno|Udio|Stable Audio|语音克隆|AI音乐|AI配音/ => 生成媒体产品
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -121,11 +121,11 @@
 # ═══════════════════════════════════════════════════════════════
 
 [全球 AI 公司与平台]
-/Microsoft|微软|Azure AI|GitHub Copilot|Copilot|Mustafa Suleyman|NVIDIA|英伟达|AMD|Amazon|AWS|Bedrock|Oracle|甲骨文|OCI|Broadcom|博通|Marvell|美满电子|TSMC|台积电|ASML|Arm|Qualcomm|高通|Intel|英特尔|Gaudi|Apple|苹果|Tesla|特斯拉|Palantir|Snowflake|Databricks|MosaicML|Cloudflare|ServiceNow|Adobe|Salesforce|IBM|Datadog|MongoDB|Elastic|Mistral AI|Cohere|Stability AI|Midjourney|Runway|Pika|Luma AI|ElevenLabs|Suno|Udio|Scale AI|Mercor|Turing|Surge AI/ => 全球 AI 公司
+/Microsoft|微软|Azure AI|GitHub Copilot|Copilot|Mustafa Suleyman|NVIDIA|英伟达|AMD|Amazon|AWS|Bedrock|Oracle|甲骨文|OCI|Broadcom|博通|Marvell|美满电子|TSMC|台积电|ASML|Arm|Qualcomm|高通|Intel|英特尔|Gaudi|Apple|苹果|Tesla|特斯拉|xAI|Grok|CoreWeave|Nebius|Lambda Labs|Crusoe|Palantir|Snowflake|Databricks|MosaicML|Cloudflare|ServiceNow|Adobe|Salesforce|IBM|Datadog|MongoDB|Elastic|Mistral AI|Cohere|Stability AI|Midjourney|Runway|Pika|Luma AI|ElevenLabs|Suno|Udio|Scale AI|Mercor|Turing|Surge AI|Labelbox|Appen/ => 全球 AI 公司
 @12
 
 [中国 AI 公司与平台]
-/百度|Baidu|文心|ERNIE|千帆大模型|昆仑芯|萝卜快跑|腾讯|Tencent|混元|Hunyuan|腾讯元宝|ima|优图实验室|阿里巴巴|Alibaba|字节跳动|ByteDance|华为|Huawei|昇腾|Ascend|盘古|MindSpore|ModelArts|科大讯飞|iFLYTEK|讯飞星火|商汤|SenseTime|日日新|SenseNova|MiniMax|月之暗面|Moonshot|DeepSeek|深度求索|智谱|Zhipu|Z\.ai|百川智能|Baichuan|零一万物|01\.AI|Yi Model|阶跃星辰|StepFun|面壁智能|ModelBest|昆仑万维|天工|Skywork|出门问问|Mobvoi|第四范式|4Paradigm|澜舟科技|三六零|360AI|纳米AI搜索|美图|WHEE|云从科技|依图科技|旷视科技|Megvii|格灵深瞳|云天励飞|虹软科技/ => 中国 AI 公司
+/百度|Baidu|文心|ERNIE|千帆大模型|昆仑芯|萝卜快跑|腾讯|Tencent|混元|Hunyuan|腾讯元宝|ima|优图实验室|阿里巴巴|Alibaba|字节跳动|ByteDance|华为|Huawei|昇腾|Ascend|盘古|MindSpore|ModelArts|海思|鲲鹏|联想|Lenovo|混合式AI|科大讯飞|iFLYTEK|讯飞星火|商汤|SenseTime|日日新|SenseNova|MiniMax|稀宇科技|月之暗面|Moonshot|DeepSeek|深度求索|智谱|Zhipu|Z\.ai|百川智能|Baichuan|零一万物|01\.AI|Yi Model|阶跃星辰|StepFun|面壁智能|ModelBest|昆仑万维|天工|Skywork|出门问问|Mobvoi|第四范式|4Paradigm|澜舟科技|三六零|360AI|纳米AI搜索|美图|WHEE|云从科技|依图科技|旷视科技|Megvii|格灵深瞳|云天励飞|虹软科技|宇树|Unitree|智元机器人|AgiBot|众擎|EngineAI|傅利叶智能|优必选/ => 中国 AI 公司
 @12
 
 [AI 顶级 LAB 与会议]
@@ -150,21 +150,53 @@
 @12
 
 [港股 AI 概念股]
-/00700|腾讯控股|Tencent|09988|阿里巴巴|Alibaba|01810|小米集团|Xiaomi|09888|百度集团|Baidu|00981|中芯国际|SMIC|00020|商汤|SenseTime|00992|联想集团|Lenovo|01347|华虹半导体|Hua Hong|01357|美图公司|Meitu|02382|舜宇光学|Sunny Optical|03690|美团|Meituan|01024|快手|Kuaishou|09626|哔哩哔哩|Bilibili|02013|微盟集团|Weimob/ => 港股 AI 概念股
+/00700|腾讯控股|Tencent|09988|阿里巴巴|Alibaba|01810|小米集团|Xiaomi|09888|百度集团|Baidu|00981|中芯国际|SMIC|00020|商汤|SenseTime|00992|联想集团|Lenovo|01347|华虹半导体|Hua Hong|01357|美图公司|Meitu|02382|舜宇光学|Sunny Optical|03690|美团|Meituan|01024|快手|Kuaishou|09626|哔哩哔哩|Bilibili|02013|微盟集团|Weimob|02498|速腾聚创|09880|优必选|02438|出门问问|06682|第四范式|03888|金山软件|03896|金山云|00772|阅文集团/ => 港股 AI 概念股
 @12
 
 [A股 AI 算力 / 芯片 / 服务器]
-/688041|海光信息|688256|寒武纪|Cambricon|603019|中科曙光|000977|浪潮信息|601138|工业富联|000034|神州数码|000938|紫光股份|002261|拓维信息|600839|四川长虹|000628|高新发展|603496|恒为科技|603986|兆易创新|GigaDevice|002049|紫光国微|300308|中际旭创|300502|新易盛|300394|天孚通信|300570|太辰光|600487|亨通光电|002463|沪电股份|002916|深南电路|002156|通富微电|600584|长电科技|002185|华天科技|688981|中芯国际|002371|北方华创|688012|中微公司|688072|拓荆科技|688008|澜起科技|龙芯中科|景嘉微|瑞芯微|全志科技|芯原股份|中科飞测/ => A股 AI 算力芯片
+/688041|海光信息|688256|寒武纪|Cambricon|688047|龙芯中科|300474|景嘉微|603893|瑞芯微|300458|全志科技|688521|芯原股份|688361|中科飞测|603019|中科曙光|000977|浪潮信息|601138|工业富联|000034|神州数码|000938|紫光股份|002261|拓维信息|600839|四川长虹|000628|高新发展|603496|恒为科技|300442|润泽科技|603881|数据港|300738|奥飞数据|603986|兆易创新|GigaDevice|002049|紫光国微|300308|中际旭创|300502|新易盛|300394|天孚通信|300570|太辰光|600487|亨通光电|002463|沪电股份|002916|深南电路|300476|胜宏科技|002156|通富微电|600584|长电科技|002185|华天科技|688981|中芯国际|002371|北方华创|688012|中微公司|688072|拓荆科技|688008|澜起科技|688525|佰维存储/ => A股 AI 算力芯片
 @12
 
 [A股 AI 应用 / 软件 / 数据]
-/002230|科大讯飞|300442|润泽科技|688111|金山办公|WPS|002415|海康威视|Hikvision|300454|深信服|300033|同花顺|300059|东方财富|300229|拓尔思|300678|中科信息|300188|美亚柏科|300624|万兴科技|300418|昆仑万维|300496|中科创达|002405|四维图新|600570|恒生电子|603000|人民网|000158|常山北明|300212|易华录|688327|云从科技|688343|云天励飞|中文在线|福昕软件|泛微网络|用友网络|致远互联|汉王科技|佳都科技|赛为智能|当虹科技|捷成股份|海天瑞声/ => A股 AI 应用软件
+/002230|科大讯飞|300442|润泽科技|688111|金山办公|WPS|002415|海康威视|Hikvision|300454|深信服|300033|同花顺|300059|东方财富|300229|拓尔思|300678|中科信息|300188|美亚柏科|300624|万兴科技|300418|昆仑万维|300496|中科创达|002405|四维图新|600570|恒生电子|603000|人民网|000158|常山北明|300212|易华录|688327|云从科技|688343|云天励飞|300058|蓝色光标|300058|中文在线|688095|福昕软件|603039|泛微网络|600588|用友网络|688369|致远互联|002362|汉王科技|600728|佳都科技|300044|赛为智能|688039|当虹科技|300182|捷成股份|688787|海天瑞声|300364|中文在线/ => A股 AI 应用软件
 @12
 
 [机器人 / 具身智能股票]
-/机器人|具身智能|Humanoid|人形机器人|宇树|Unitree|智元机器人|AgiBot|众擎|EngineAI|优必选|UBTECH|特斯拉机器人|Optimus|Figure AI|1X Technologies|Agility Robotics|波士顿动力|Boston Dynamics|埃斯顿|拓普集团|三花智控|绿的谐波|鸣志电器|中大力德|双环传动|汇川技术|柯力传感|奥比中光|禾川科技|雷赛智能/ => 机器人 / 具身智能
+/机器人|具身智能|Embodied AI|Humanoid|人形机器人|四足机器人|机械狗|灵巧手|宇树|Unitree|智元机器人|AgiBot|众擎|EngineAI|傅利叶智能|优必选|UBTECH|特斯拉机器人|Optimus|Figure AI|1X Technologies|Agility Robotics|波士顿动力|Boston Dynamics|执行器|减速器|伺服电机|关节模组|力矩传感器|埃斯顿|拓普集团|三花智控|绿的谐波|鸣志电器|中大力德|双环传动|汇川技术|柯力传感|奥比中光|禾川科技|雷赛智能|江苏雷利|步科股份|五洲新春|贝斯特/ => 机器人 / 具身智能
 @10
 
+
+# ═══════════════════════════════════════════════════════════════
+# AI 产业链公司强化补充 / 上中下游
+# ═══════════════════════════════════════════════════════════════
+
+[AI 产业链上游公司 / 芯片算力]
+/英伟达|NVIDIA|AMD|Intel|英特尔|Arm|高通|Qualcomm|Broadcom|博通|Marvell|美满电子|台积电|TSMC|ASML|阿斯麦|三星电子|SK海力士|Micron|美光|海光信息|寒武纪|龙芯中科|景嘉微|瑞芯微|全志科技|芯原股份|澜起科技|兆易创新|紫光国微|长江存储|长鑫存储|壁仞科技|摩尔线程|燧原科技|沐曦|天数智芯|昆仑芯|平头哥|华为昇腾|海思|鲲鹏/ => AI 上游芯片公司
+@10
+
+[AI 产业链上游公司 / 服务器与数据中心]
+/浪潮信息|中科曙光|工业富联|神州数码|紫光股份|拓维信息|四川长虹|高新发展|恒为科技|联想集团|Lenovo|Super Micro|超微电脑|Dell|HPE|CoreWeave|Nebius|Lambda Labs|Crusoe|润泽科技|数据港|奥飞数据|宝信软件|科华数据|英维克|申菱环境|高澜股份|同飞股份|科士达|盛弘股份|伊戈尔|麦格米特/ => AI 数据中心公司
+@10
+
+[AI 产业链上游公司 / 光模块网络互连]
+/中际旭创|新易盛|天孚通信|太辰光|光迅科技|源杰科技|剑桥科技|华工科技|联特科技|博创科技|仕佳光子|亨通光电|长飞光纤|Coherent|Lumentum|Broadcom|Marvell|Arista|Cisco|NVIDIA Spectrum-X|InfiniBand|RoCE|CPO|硅光|LPO|800G|1\.6T/ => AI 光模块网络公司
+@10
+
+[AI 产业链上游公司 / 半导体制造封测设备]
+/中芯国际|华虹公司|华虹半导体|北方华创|中微公司|拓荆科技|华海清科|芯源微|盛美上海|至纯科技|精测电子|沪硅产业|立昂微|长电科技|通富微电|华天科技|甬矽电子|颀中科技|华大九天|概伦电子|Cadence|Synopsys|Applied Materials|Lam Research|KLA|CoWoS|Chiplet|先进封装|ABF载板/ => AI 半导体制造封测
+@10
+
+[AI 产业链中游公司 / 模型平台]
+/OpenAI|Anthropic|Google DeepMind|Meta AI|xAI|Mistral AI|Cohere|Hugging Face|Databricks|Snowflake|Palantir|Scale AI|DeepSeek|阿里云|通义千问|腾讯混元|百度文心|字节豆包|华为盘古|月之暗面|Kimi|智谱AI|MiniMax|百川智能|零一万物|阶跃星辰|面壁智能|商汤日日新|科大讯飞|讯飞星火|第四范式/ => AI 中游模型平台公司
+@10
+
+[AI 产业链下游公司 / 应用软件与终端]
+/Microsoft Copilot|GitHub Copilot|Cursor|Windsurf|Claude Code|Codex|Perplexity|Notion AI|Obsidian|金山办公|科大讯飞|昆仑万维|三六零|万兴科技|中文在线|拓尔思|同花顺|恒生电子|福昕软件|用友网络|泛微网络|致远互联|中科创达|虹软科技|美图公司|联想集团|小米集团|立讯精密|歌尔股份|蓝思科技|领益智造|东山精密|鹏鼎控股|环旭电子|水晶光电|舜宇光学|韦尔股份/ => AI 下游应用终端公司
+@10
+
+[AI 产业链下游公司 / 机器人与智能驾驶]
+/宇树|Unitree|智元机器人|AgiBot|众擎|EngineAI|傅利叶智能|优必选|UBTECH|Figure AI|1X Technologies|Agility Robotics|Boston Dynamics|Tesla Optimus|埃斯顿|汇川技术|拓普集团|三花智控|绿的谐波|鸣志电器|中大力德|双环传动|柯力传感|奥比中光|禾川科技|雷赛智能|华依科技|德赛西威|经纬恒润|四维图新|中科创达|地平线机器人|萝卜快跑|小马智行|文远知行/ => AI 机器人智驾公司
+@10
 
 # ═══════════════════════════════════════════════════════════════
 # AI 产业链节点 / 核心产品概念
@@ -179,7 +211,7 @@
 @8
 
 [数据中心 / 云 / 电力 / 液冷]
-/AI数据中心|智算中心|算力中心|算力集群|GPU集群|GPU Cloud|推理云|训推一体|算力网络|东数西算|绿色算力|云计算|公有云|私有云|混合云|IDC|机柜|液冷|液冷服务器|冷板液冷|浸没式液冷|散热|热管理|电源模块|UPS|PDU|PUE|变压器|配电|储能|绿电|水电|核电|光伏|风电|AIDC|Colocation|Equinix|Digital Realty|CoreWeave|润泽科技|奥飞数据|数据港|宝信软件/ => 数据中心 / 电力
+/AI数据中心|智算中心|算力中心|算力集群|GPU集群|GPU Cloud|推理云|训推一体|算力网络|东数西算|绿色算力|云计算|公有云|私有云|混合云|IDC|AIDC|Colocation|机柜|液冷|液冷服务器|冷板液冷|浸没式液冷|散热|热管理|电源模块|UPS|PDU|PUE|变压器|配电|储能|绿电|水电|核电|光伏|风电|Equinix|Digital Realty|CoreWeave|Nebius|Lambda Labs|Crusoe|润泽科技|奥飞数据|数据港|宝信软件|科华数据|英维克|申菱环境|高澜股份|同飞股份|科士达|盛弘股份/ => 数据中心 / 电力
 @10
 
 [光模块 / 网络 / 互连]
@@ -195,7 +227,7 @@
 @8
 
 [AI 应用场景]
-/AI办公|办公自动化|AI搜索|搜索引擎|AI浏览器|AI邮件|AI会议|AI客服|AI销售|AI营销|AI设计|AI视频|AI教育|AI医疗|AI金融|AI投研|AI法务|AI安全|AI运维|AIOps|AI财务|AI ERP|AI CRM|企业智能体|个人助理|知识管理|自动驾驶|智驾|端到端自动驾驶|AI PC|AI手机|AI眼镜/ => AI 应用场景
+/AI办公|办公自动化|AI搜索|搜索引擎|AI浏览器|AI邮件|AI会议|AI客服|AI销售|AI营销|AI电商|AI广告|AI设计|AI视频|AI教育|AI医疗|AI金融|AI投研|AI法务|AI安全|AI运维|AIOps|AI财务|AI ERP|AI CRM|AI游戏|AI影视|AI制造|AI物流|AI政务|智慧城市|企业智能体|个人助理|知识管理|自动驾驶|智驾|端到端自动驾驶|Robotaxi|智能座舱|AI PC|AI手机|AI眼镜/ => AI 应用场景
 @10
 
 [AI 终端 / 端边云]
@@ -234,6 +266,15 @@ AI网关
 
 [软件公司护城河 / AI 影响]
 /软件护城河|Workflow Moat|Data Moat|Distribution Moat|Ecosystem Moat|Switching Cost|平台化|垂直SaaS|企业软件|低代码|无代码|自动化|插件生态|API生态|系统集成|业务流程|知识沉淀|数据资产|用户工作流|Seat Expansion|Usage-based Pricing|订阅制|AI化转型/ => 软件护城河
+@8
+
+
+[AI 服务器 / PCB / 电源链]
+/AI服务器|GPU服务器|液冷服务器|整机柜|交换机|PCB|HDI|ABF载板|高速背板|电源模块|UPS|PDU|电源管理|工业富联|浪潮信息|中科曙光|沪电股份|深南电路|胜宏科技|兴森科技|生益科技|景旺电子|科士达|科华数据|英维克|申菱环境/ => AI 服务器链
+@8
+
+[具身智能核心零部件]
+/执行器|关节模组|伺服电机|空心杯电机|无框力矩电机|谐波减速器|RV减速器|滚柱丝杠|灵巧手|六维力传感器|视觉传感器|激光雷达|IMU|控制器|绿的谐波|鸣志电器|中大力德|双环传动|柯力传感|奥比中光|禾川科技|雷赛智能|步科股份|五洲新春|贝斯特|江苏雷利/ => 具身智能零部件
 @8
 
 [AI + 芯片]
