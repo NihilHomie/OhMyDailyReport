@@ -1,6 +1,6 @@
 # ═══════════════════════════════════════════════════════════════
 #                    TrendRadar 频率词配置文件
-#                         Version: 1.1.1
+#                         Version: 1.1.2
 # ═══════════════════════════════════════════════════════════════
 
 [GLOBAL_FILTER]
@@ -72,9 +72,13 @@
 /Google AI|Google DeepMind|DeepMind|\bGemini\b|Gemini API|Gemini Deep Research|Gemini Code Assist|AI Studio|Google AI Studio|NotebookLM|LM Notebook|Project Astra|Veo|Imagen|AlphaFold|AlphaCode|AI Overviews|Demis Hassabis|Shane Legg|Oriol Vinyals|Jeff Dean|Logan Kilpatrick/ => Google / Gemini
 !星座
 
-/DeepSeek|深度求索|幻方量化|梁文锋|DeepSeek-R1|DeepSeek-V3|DeepSeek-Coder|DeepSeek-VL|DeepSeek-V|DeepSeek-R|DeepSeek Coder/ => DeepSeek
+/DeepSeek|深度求索|幻方量化|梁文锋|罗福莉|Luo Fuli|DeepSeek-R1|DeepSeek-V3|DeepSeek-Coder|DeepSeek-VL|DeepSeek-V|DeepSeek-R|DeepSeek Coder|DeepSeek-V2|DeepSeekMath|DeepSeekMoE/ => DeepSeek
 
-/阿里|Alibaba|通义|通义千问|千问|\bQwen\b|Qwen3|Qwen Code|Qwen Coder|Qoder|阿里云|百炼|ModelScope|魔搭社区|达摩院|夸克AI|钉钉AI/ => 阿里 / Qwen
+/腾讯混元|混元大模型|Hunyuan|腾讯元宝|ima|姚顺宇|姚顺雨|Yao Shunyu|腾讯 AI Infra|腾讯大语言模型部|Tencent AI Lab|优图实验室/ => 腾讯 / 混元
+
+/小米大模型|Xiaomi MiMo|MiMo|Xiaomi AI|小爱同学|超级小爱|罗福莉|Luo Fuli|雷军/ => 小米 / MiMo
+
+/阿里|Alibaba|通义|通义千问|千问|\bQwen\b|Qwen3|Qwen Code|Qwen Coder|Qoder|林俊旸|Qwen Team|通义千问团队|阿里云|百炼|ModelScope|魔搭社区|达摩院|夸克AI|钉钉AI/ => 阿里 / Qwen
 
 /字节|ByteDance|火山引擎|豆包|Doubao|Seed|Seedance|Trae|MarsCode|Coze|扣子|即梦|Dreamina|剪映|MagicVideo|吴永辉/ => 字节 / 豆包
 
@@ -125,7 +129,7 @@
 @12
 
 [中国 AI 公司与平台]
-/百度|Baidu|文心|ERNIE|千帆大模型|昆仑芯|萝卜快跑|腾讯|Tencent|混元|Hunyuan|腾讯元宝|ima|优图实验室|阿里巴巴|Alibaba|字节跳动|ByteDance|华为|Huawei|昇腾|Ascend|盘古|MindSpore|ModelArts|海思|鲲鹏|联想|Lenovo|混合式AI|科大讯飞|iFLYTEK|讯飞星火|商汤|SenseTime|日日新|SenseNova|MiniMax|稀宇科技|月之暗面|Moonshot|DeepSeek|深度求索|智谱|Zhipu|Z\.ai|百川智能|Baichuan|零一万物|01\.AI|Yi Model|阶跃星辰|StepFun|面壁智能|ModelBest|昆仑万维|天工|Skywork|出门问问|Mobvoi|第四范式|4Paradigm|澜舟科技|三六零|360AI|纳米AI搜索|美图|WHEE|云从科技|依图科技|旷视科技|Megvii|格灵深瞳|云天励飞|虹软科技|宇树|Unitree|智元机器人|AgiBot|众擎|EngineAI|傅利叶智能|优必选/ => 中国 AI 公司
+/百度|Baidu|文心|ERNIE|千帆大模型|昆仑芯|萝卜快跑|腾讯|Tencent|混元|Hunyuan|腾讯元宝|ima|优图实验室|AI Infra部|大语言模型部|阿里巴巴|Alibaba|通义实验室|通义千问团队|Qwen Team|字节跳动|ByteDance|Seed团队|火山引擎|华为|Huawei|昇腾|Ascend|盘古|MindSpore|ModelArts|海思|鲲鹏|联想|Lenovo|混合式AI|小米|Xiaomi|小米大模型|MiMo|Xiaomi MiMo|科大讯飞|iFLYTEK|讯飞星火|商汤|SenseTime|日日新|SenseNova|MiniMax|稀宇科技|月之暗面|Moonshot|DeepSeek|深度求索|幻方量化|智谱|Zhipu|Z\.ai|百川智能|Baichuan|零一万物|01\.AI|Yi Model|阶跃星辰|StepFun|面壁智能|ModelBest|昆仑万维|天工|Skywork|出门问问|Mobvoi|第四范式|4Paradigm|澜舟科技|三六零|360AI|纳米AI搜索|美图|WHEE|云从科技|依图科技|旷视科技|Megvii|格灵深瞳|云天励飞|虹软科技|宇树|Unitree|智元机器人|AgiBot|众擎|EngineAI|傅利叶智能|优必选/ => 中国 AI 公司
 @12
 
 [AI 顶级 LAB 与会议]
@@ -137,16 +141,104 @@
 @12
 
 [中国 AI 人物]
-/梁文锋|杨植麟|王小川|李开复|闫俊杰|唐杰|张鹏|刘知远|孙茂松|林达华|王晓刚|谭铁牛|王海峰|吴华|俞栋|张正友|吴永辉|李彦宏|马化腾|张一鸣|任正非|余承东|王兴兴|稚晖君|彭志辉|张涛|Peak Ji|何恺明|贾扬清|陈天奇/ => 中国 AI 人物
+/梁文锋|杨植麟|王小川|李开复|闫俊杰|唐杰|张鹏|刘知远|孙茂松|林达华|王晓刚|谭铁牛|王海峰|吴华|俞栋|张正友|吴永辉|李彦宏|马化腾|张一鸣|任正非|余承东|王兴兴|稚晖君|彭志辉|张涛|Peak Ji|何恺明|贾扬清|陈天奇|姚顺宇|姚顺雨|Yao Shunyu|Shunyu Yao|罗福莉|Luo Fuli|Fuli Luo|林俊旸|张祥雨|周畅|黄非|姜大昕|李大海|袁进辉|曾国洋|王仲远|印奇|唐文斌|杨沐|张亚勤|沈向洋|周志华|朱军|朱文武|黄民烈|崔鹏|黄铁军|田奇|贾佳亚|俞士汶|邱锡鹏|郑南宁|梅宏|高文|陶大程|张宏江|戴琼海|李航|漆远|刘挺|何晓冬|张钹|郑海涛|韩松|任少卿|孙剑|杨强|裴健|张潼|华先胜|刘铁岩|周剑|夏珩|何小鹏|李想|王传福|李斌|楼天城|楼教主/ => 中国 AI 人物
 @12
 
+
+[中国 AI 人物 - 大模型新生代]
+/姚顺宇|姚顺雨|Yao Shunyu|Shunyu Yao|罗福莉|Luo Fuli|Fuli Luo|林俊旸|张祥雨|梁文锋|杨植麟|闫俊杰|周畅|黄非|姜大昕|唐杰|张鹏|王仲远|刘知远|孙茂松|张涛|Peak Ji|陈天奇|贾扬清|何恺明|韩松|任少卿|孙剑|张亚勤|沈向洋/ => 中国 AI 新生代人物
+@12
+
+[中国 AI 人物 - 大模型公司关联]
+/姚顺宇|姚顺雨|罗福莉|林俊旸|张祥雨|梁文锋|杨植麟|闫俊杰|周畅|黄非|姜大昕|王仲远|唐杰|张鹏|张涛|DeepSeek|深度求索|腾讯|Tencent|混元|Hunyuan|小米|Xiaomi|MiMo|小米大模型|阿里|Alibaba|通义千问|Qwen|月之暗面|Moonshot|Kimi|MiniMax|阶跃星辰|StepFun|智谱|Zhipu|GLM|百川智能|零一万物|01\.AI|面壁智能|ModelBest|昆仑万维|天工/ => 中国大模型人物公司
+@12
+
+[中国 AI 学术与开源人物]
+/周志华|朱军|唐杰|刘知远|孙茂松|朱文武|黄民烈|崔鹏|黄铁军|田奇|贾佳亚|俞士汶|邱锡鹏|郑南宁|梅宏|高文|陶大程|张宏江|戴琼海|李航|漆远|刘挺|何晓冬|张钹|郑海涛|陈天奇|贾扬清|何恺明|韩松|任少卿|孙剑|杨强|裴健|张潼|华先胜|刘铁岩|清华NLP|KEG|THUNLP|北大AI|上海人工智能实验室|OpenGVLab|MSRA|达摩院|腾讯AI Lab|ByteDance Seed/ => 中国 AI 学术开源人物
+@10
+
+[姚顺宇 + 腾讯]
++姚顺宇
++腾讯
+@10
+
+[姚顺雨 + 腾讯]
++姚顺雨
++腾讯
+@10
+
+[罗福莉 + 小米]
++罗福莉
++小米
+@10
+
+[罗福莉 + DeepSeek]
++罗福莉
++DeepSeek
+@10
+
+[林俊旸 + 通义千问]
++林俊旸
++通义千问
+@10
+
+[张祥雨 + 阶跃星辰]
++张祥雨
++阶跃星辰
+@10
+
+
+
+# ═══════════════════════════════════════════════════════════════
+# Web3 / 稳定币 / AI 支付金融解决方案
+# ═══════════════════════════════════════════════════════════════
+
+[稳定币 / 链上支付]
+/稳定币|Stablecoin|USDC|USDT|Tether|Circle|Circle Internet|\bCRCL\b|PYUSD|PayPal USD|RLUSD|Ripple USD|FDUSD|DAI|EURC|tokenized cash|代币化现金|数字美元|链上美元|on-chain dollar|onchain dollar|支付稳定币|payment stablecoin|稳定币支付|稳定币结算|链上结算|on-chain settlement|cross-border payment|跨境支付|储备资产|reserve income|USDC流通量|链上交易额|onchain transaction volume|21\.5万亿|21\.5 trillion|20\+万亿/ => 稳定币链上支付
+@12
+
+[AI Agent 钱包 / 可编程支付]
+/Agent Wallet|Agentic Wallet|AI Wallet|智能体钱包|代理钱包|AI支付|Agent支付|agentic payments|agentic commerce|机器支付|machine-to-machine payment|M2M payment|可编程支付|programmable payment|programmable payments|micropayment|micropayments|nanopayment|nanopayments|gas-free|gasless payment|Circle Agent Stack|Agent Stack|Amazon Bedrock AgentCore Payments|AgentCore Payments|Coinbase wallet|Stripe Privy wallet|Privy wallet|Binance Wallet|Binance Pay|Exodus Pay|XO Cash|AI agent stablecoin|bots payment|payment rails for bots|agent checkout|merchant payments|API支付|服务发现|service discovery|machine-readable controls/ => AI Agent 钱包支付
+@12
+
+[Web3 / Crypto 基础设施]
+/Web3|Crypto|Cryptocurrency|Blockchain|区块链|链上|On-chain|Onchain|DeFi|CeFi|智能合约|Smart Contract|Account Abstraction|账户抽象|\bAA\b|ERC-4337|Smart Wallet|MPC Wallet|Self-custody|Custody|Wallet-as-a-Service|WaaS|链抽象|Chain Abstraction|Intent|Intent-centric|意图交易|Paymaster|Gas Sponsorship|Mempool|MEV|DEX|CEX|AMM|DEX Aggregator|Oracle|预言机|Chainlink|LayerZero|Wormhole|跨链桥|Bridge|Layer 1|Layer 2|L1|L2|Solana|Ethereum|Base|World Chain|Arbitrum|Optimism|Polygon|Avalanche|BNB Chain/ => Web3 Crypto 基础设施
+@10
+
+[RWA / 代币化金融]
+/RWA|Real World Assets|真实世界资产|资产代币化|Tokenization|tokenized assets|tokenized fund|tokenized deposits|代币化存款|国债代币化|货币市场基金代币化|证券型代币|Security Token|BlackRock BUIDL|BUIDL|Ondo Finance|ONDO|Securitize|Franklin Templeton BENJI|BENJI|Superstate|Maple Finance|Centrifuge|Canton Network|DTCC|Fireblocks|Stripe Bridge|Bridge|BVNK|Yellow Card|Visa Tokenized Asset Platform|VTAP|Mastercard Crypto Credential/ => RWA 代币化金融
+@10
+
+[稳定币监管 / 合规]
+/GENIUS Act|CLARITY Act|MiCA|稳定币监管|加密监管|Crypto Regulation|数字资产监管|Digital Asset Regulation|AML|KYC|Travel Rule|反洗钱|合规钱包|合规稳定币|储备证明|Proof of Reserves|审计储备|监管牌照|电子货币代币|e-money token|支付牌照|MSB|MTO/ => 稳定币监管合规
+@8
+
+[Web3 + AI]
++AI
++Web3
+@10
+
+[AI + 稳定币]
++AI
++稳定币
+@12
+
+[智能体 + 钱包]
++智能体
++钱包
+@12
+
+[Agent + Payments]
++Agent
++Payments
+@12
 
 # ═══════════════════════════════════════════════════════════════
 # AI 概念股 / 上市公司
 # ═══════════════════════════════════════════════════════════════
 
 [美股 AI 概念股]
-/\bNVDA\b|NVIDIA|英伟达|\bMSFT\b|Microsoft|微软|\bGOOGL\b|\bGOOG\b|Alphabet|Google|谷歌|\bMETA\b|Meta Platforms|\bAMZN\b|Amazon|亚马逊|\bAVGO\b|Broadcom|博通|\bPLTR\b|Palantir|\bAMD\b|Advanced Micro Devices|\bTSM\b|台积电|\bORCL\b|Oracle|甲骨文|\bSMCI\b|Super Micro|超微电脑|\bARM\b|Arm Holdings|\bASML\b|\bMU\b|Micron|美光|\bMRVL\b|Marvell|\bSNOW\b|Snowflake|\bDDOG\b|Datadog|\bNOW\b|ServiceNow|\bCRM\b|Salesforce|\bADBE\b|Adobe|\bCRWD\b|CrowdStrike|C3\.ai/ => 美股 AI 概念股
+/\bNVDA\b|NVIDIA|英伟达|\bMSFT\b|Microsoft|微软|\bGOOGL\b|\bGOOG\b|Alphabet|Google|谷歌|\bMETA\b|Meta Platforms|\bAMZN\b|Amazon|亚马逊|\bAVGO\b|Broadcom|博通|\bPLTR\b|Palantir|\bAMD\b|Advanced Micro Devices|\bTSM\b|台积电|\bORCL\b|Oracle|甲骨文|\bSMCI\b|Super Micro|超微电脑|\bARM\b|Arm Holdings|\bASML\b|\bMU\b|Micron|美光|\bMRVL\b|Marvell|\bSNOW\b|Snowflake|\bDDOG\b|Datadog|\bNOW\b|ServiceNow|\bCRM\b|Salesforce|\bADBE\b|Adobe|\bCRWD\b|CrowdStrike|C3\.ai|\bCRCL\b|Circle|\bCOIN\b|Coinbase|\bHOOD\b|Robinhood|\bSQ\b|Block|\bPYPL\b|PayPal|Cerebras/ => 美股 AI 概念股
 @12
 
 [港股 AI 概念股]
@@ -190,6 +282,11 @@
 /OpenAI|Anthropic|Google DeepMind|Meta AI|xAI|Mistral AI|Cohere|Hugging Face|Databricks|Snowflake|Palantir|Scale AI|DeepSeek|阿里云|通义千问|腾讯混元|百度文心|字节豆包|华为盘古|月之暗面|Kimi|智谱AI|MiniMax|百川智能|零一万物|阶跃星辰|面壁智能|商汤日日新|科大讯飞|讯飞星火|第四范式/ => AI 中游模型平台公司
 @10
 
+
+[AI 支付 / 稳定币 / Web3 公司]
+/Circle|Circle Internet|\bCRCL\b|USDC|Tether|Bitfinex|Coinbase|\bCOIN\b|Binance|币安|OKX|Kraken|Robinhood|\bHOOD\b|PayPal|\bPYPL\b|Block|\bSQ\b|Stripe|Bridge|Privy|Fireblocks|Paxos|Ripple|MoonPay|Monavate|Exodus|Chainalysis|Elliptic|TRM Labs|Alchemy|Infura|Consensys|MetaMask|Phantom|Ledger|Safe|Worldcoin|World Chain|Visa|Mastercard|DTCC|BlackRock|a16z crypto|ARK Invest|Securitize|Ondo Finance|BVNK|Yellow Card/ => AI 稳定币 Web3 公司
+@10
+
 [AI 产业链下游公司 / 应用软件与终端]
 /Microsoft Copilot|GitHub Copilot|Cursor|Windsurf|Claude Code|Codex|Perplexity|Notion AI|Obsidian|金山办公|科大讯飞|昆仑万维|三六零|万兴科技|中文在线|拓尔思|同花顺|恒生电子|福昕软件|用友网络|泛微网络|致远互联|中科创达|虹软科技|美图公司|联想集团|小米集团|立讯精密|歌尔股份|蓝思科技|领益智造|东山精密|鹏鼎控股|环旭电子|水晶光电|舜宇光学|韦尔股份/ => AI 下游应用终端公司
 @10
@@ -203,7 +300,7 @@
 # ═══════════════════════════════════════════════════════════════
 
 [算力芯片 / GPU / ASIC]
-/GPU|GPGPU|AI芯片|加速卡|ASIC|TPU|NPU|DPU|IPU|FPGA|CUDA|ROCm|昇腾|Ascend|寒武纪|MLU|海光 DCU|昆仑芯|平头哥|壁仞|摩尔线程|天数智芯|燧原科技|沐曦|Graphcore|Cerebras|Groq|Trainium|Inferentia|Gaudi|MI300X|B200|GB200|GB300|Blackwell|H100|H200|Hopper|Rubin|DGX|NVLink|NVSwitch/ => 算力芯片
+/GPU|GPGPU|AI芯片|加速卡|ASIC|TPU|NPU|DPU|IPU|FPGA|CUDA|ROCm|昇腾|Ascend|寒武纪|MLU|海光 DCU|昆仑芯|平头哥|壁仞|摩尔线程|天数智芯|燧原科技|沐曦|Graphcore|Cerebras|Cerebras Systems|Cerebras IPO|WSE|Wafer Scale Engine|CS-3|晶圆级芯片|wafer-scale chip|Groq|SambaNova|Tenstorrent|Etched|d-Matrix|Lightmatter|Celestial AI|Mythic|Rain AI|Untether AI|Rebellions|FuriosaAI|Trainium|Inferentia|Gaudi|MI300X|B200|GB200|GB300|Blackwell|H100|H200|Hopper|Rubin|DGX|NVLink|NVSwitch/ => 算力芯片
 @10
 
 [存储 / HBM / 内存]
@@ -228,6 +325,15 @@
 
 [AI 应用场景]
 /AI办公|办公自动化|AI搜索|搜索引擎|AI浏览器|AI邮件|AI会议|AI客服|AI销售|AI营销|AI电商|AI广告|AI设计|AI视频|AI教育|AI医疗|AI金融|AI投研|AI法务|AI安全|AI运维|AIOps|AI财务|AI ERP|AI CRM|AI游戏|AI影视|AI制造|AI物流|AI政务|智慧城市|企业智能体|个人助理|知识管理|自动驾驶|智驾|端到端自动驾驶|Robotaxi|智能座舱|AI PC|AI手机|AI眼镜/ => AI 应用场景
+@10
+
+
+[AI 金融层 / 支付结算]
+/AI金融|AI支付|AI钱包|Agent Wallet|Agentic Wallet|AI Wallet|智能体钱包|稳定币支付|链上支付|链上结算|USDC结算|可编程支付|programmable payment|micropayment|nanopayment|machine-to-machine payment|agentic commerce|agentic payments|Circle Agent Stack|AgentCore Payments|Arc network|Arc blockchain|Economic OS|internet financial system|tokenized cash|RWA|tokenized deposits|跨境结算|实时结算|支付轨道|payment rails/ => AI 金融支付层
+@10
+
+[AI 芯片 IPO / 算力资本市场]
+/Cerebras IPO|Cerebras Systems|IPO定价区间|上调IPO定价|raise IPO price range|IPO pricing range|AI chip IPO|AI芯片IPO|算力IPO|AI accelerator IPO|晶圆级芯片|Wafer Scale Engine|WSE|CS-3|Cerebras Cloud|AI芯片创业公司|AI chip startup|inference chip|推理芯片|ASIC创业公司|Groq|SambaNova|Tenstorrent|Etched|d-Matrix|Lightmatter|Celestial AI/ => AI 芯片 IPO
 @10
 
 [AI 终端 / 端边云]
@@ -311,3 +417,34 @@ AI网关
 +智能体
 +产品
 @10
+
+[支付 + 稳定币]
++支付
++稳定币
+@12
+
+[AI + 支付]
++AI
++支付
+@12
+
+[Agent + 钱包]
++Agent
++钱包
+@12
+
+[Circle + 财报]
++Circle
++财报
+@10
+
+[Cerebras + IPO]
++Cerebras
++IPO
+@12
+
+[AI芯片 + IPO]
++AI芯片
++IPO
+@12
+
